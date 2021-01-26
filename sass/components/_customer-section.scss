@@ -1,0 +1,66 @@
+.customer-section {
+  background-color: $primary-background-color;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+h2 {
+  color: $primary-text-color;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 30px;
+  font-size: 28px;
+  line-height: 1.1771;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.166667;
+  }
+}
+.customers-list {
+  display: flex;
+  margin: 0 -15px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.customers-list a {
+  display: block;
+  display: flex;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
+  border: #afb1b8 1px solid;
+  border-radius: 4px;
+  &:hover,
+  &:focus {
+    svg {
+      fill: $hover-color;
+    }
+  }
+  &:hover {
+    border: $hover-color 1px solid;
+    border-radius: 4px;
+  }
+}
+.customers-list svg {
+  height: 52px;
+  fill: $additional-text-color;
+}
+.customers-list li {
+  display: block;
+  width: 210px;
+  margin: 15px;
+  @media screen and (min-width: 768px) {
+    width: 226px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 170px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

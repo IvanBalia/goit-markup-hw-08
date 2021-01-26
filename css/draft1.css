@@ -1,0 +1,313 @@
+:root {
+  --primary-text-color: #212121;
+  --additional-text-color: #757575;
+  --invert-text-color: #ffffff;
+  --primary-background-color: #ffffff;
+  --hero-background-color: #2f303a;
+  --footer-background-color: #000000;
+  --hover-color: #2196f3;
+  --team-background-color: #f5f4fa;
+  --test-tomato: #ffffff;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--primary-background-color);
+}
+.product-section h2,
+.team-section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  color: var(--primary-text-color);
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+header a:hover {
+  color: var(--hover-color);
+}
+header a:focus {
+  color: var(--hover-color);
+}
+header a {
+  font-size: 14px;
+  font-weight: 500;
+}
+.header-nav a {
+  color: var(--primary-text-color);
+}
+.header-contacts a {
+  color: var(--additional-text-color);
+}
+.hero-section {
+  background-color: var(--hero-background-color);
+  color: var(--invert-text-color);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  text-align: center;
+  margin-top: 0;
+
+  padding-top: 170px;
+}
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+}
+.hero-section button {
+  background-color: var(--hover-color);
+  color: var(--invert-text-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875;
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+}
+.features-section {
+  display: flex;
+  text-align: left;
+  font-size: 14px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 93px;
+  padding-bottom: 94px;
+  height: 288px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: var(--test-tomato);
+}
+.features-section li:not(:last-child) {
+  margin-right: 30px;
+}
+.features-section h3 {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  line-height: 1.17;
+  margin: 0;
+  width: 270px;
+}
+.features-section p {
+  color: var(--additional-text-color);
+  font-weight: 400;
+  line-height: 1.714;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.team-section {
+  background-color: var(--team-background-color);
+  color: var(--primary-text-color);
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.17;
+  width: 1600px;
+  height: 648px;
+  padding-top: 94px;
+}
+.team-section ul {
+  display: flex;
+  width: 1170px;
+  margin-left: 200px;
+  margin-top: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.team-section li {
+  width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  padding-top: 0;
+  padding-bottom: 30px;
+}
+.team-section li:nth-child(n + 2) {
+  margin-left: 30px;
+}
+.team-section h3 {
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.team-section span {
+  font-weight: 400;
+  color: var(--additional-text-color);
+}
+.footer-section {
+  background-color: var(--footer-background-color);
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.714;
+  width: 1600px;
+  height: 252px;
+  padding-left: 215px;
+  padding-top: 60px;
+}
+.footer-section ul {
+  margin-top: 20px;
+  font-style: normal;
+  padding-left: 0;
+}
+.adress {
+  color: var(--invert-text-color);
+}
+.contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+.filters-section {
+  background-color: var(--test-tomato);
+  width: 1600px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 93px;
+  padding-bottom: 16px;
+  border-top: 1px solid #ececec;
+}
+.filters-section ul {
+  display: flex;
+  justify-content: center;
+}
+.filters-section button {
+  background-color: var(--team-background-color);
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  height: 38px;
+  padding: 6px 22px;
+}
+.filters-section li:nth-child(n + 2) {
+  margin-left: 8px;
+}
+.filters-section button:hover {
+  background-color: var(--hover-color);
+  color: var(--invert-text-color);
+  box-shadow: 2px 2px 4px #e5e5e5;
+}
+.filters-section button:focus {
+  background-color: var(--hover-color);
+  color: var(--invert-text-color);
+  box-shadow: 2px 2px 4px #e5e5e5;
+}
+.portfolio-section {
+  width: 1200px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 0;
+  padding-top: 34px;
+  padding-bottom: 93px;
+  background-color: var(--test-tomato);
+}
+.portfolio-section ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+.portfolio-section li {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #eeeeee;
+  margin-right: 30px;
+  margin-top: 0;
+  width: 370px;
+}
+.portfolio-section li:nth-child(3n) {
+  margin-right: 0;
+}
+.portfolio-section li:nth-child(n + 4) {
+  margin-top: 30px;
+}
+.portfolio-section div {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.portfolio-section b {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  color: var(--primary-text-color);
+  margin-top: 20px;
+  margin-left: 24px;
+}
+.portfolio-section span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.875;
+  color: var(--additional-text-color);
+  margin-top: 4px;
+  margin-left: 24px;
+}
+header {
+  display: flex;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 200px;
+  margin-right: 200px;
+  align-items: center;
+  height: 80px;
+  background-color: var(--test-tomato);
+}
+nav {
+  margin: 93px;
+}
+.header-nav li:not(:first-child) {
+  margin-left: 50px;
+}
+
+nav ul {
+  display: flex;
+}
+.header-contacts {
+  display: flex;
+  margin-left: auto;
+}
+.header-contacts li:not(:first-child) {
+  margin-left: 50px;
+}
+header a {
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.product-section {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15xp;
+  padding-bottom: 94px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  background-color: var(--test-tomato);
+}
+.product-section ul {
+  display: flex;
+  padding: 0;
+  margin-top: 50px;
+}
+.product-section li:nth-child(n + 2) {
+  margin-left: 30px;
+}
+div.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}

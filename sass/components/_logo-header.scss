@@ -1,0 +1,21 @@
+.logo-header {
+  padding: 14px 0px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.166667;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  .web {
+    color: $hover-color;
+    text-transform: capitalize;
+  }
+  .studio-header {
+    color: $primary-text-color;
+    text-transform: capitalize;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+  }
+}

@@ -1,0 +1,20 @@
+header {
+  height: 60px;
+  position: relative;
+  background-color: $primary-background-color;
+  .container {
+    display: flex;
+    @media screen and (min-width: 768px) {
+      height: 80px;
+      align-items: center;
+    }
+    @media screen and (min-width: 1200px) {
+      align-items: center;
+      padding-top: 18px;
+      padding-bottom: 18px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    height: 80px;
+  }
+}

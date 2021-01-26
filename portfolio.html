@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="https://github.com/sindresorhus/modern-normalize.git">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a class="logo-header" href="/">
+                    <span class="web">web</span><span class="studio-header">Studio</span>
+                </a>
+                <button type="button" class="menu-button" aria-expanded="false" aria-controls="menu" data-menu-button>
+                    <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+                        <use class="icon-menu" href="./images/symbol-defs.svg#icon-menu_24px"></use>
+                        <use class="icon-cross" href="./images/symbol-defs.svg#icon-close_24px"></use>
+                    </svg>
+                </button>
+        
+                <div class="menu" id="menu" data-menu>
+                    <ul class="header-nav">
+                        <li class="nav-items">
+                            <a href="./index.html" class="link">Студия</a>
+                        </li>
+                        <li class="nav-items">
+                            <a class="link-active" href="./portfolio.html" class="link">Портфолио</a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="" class="link">Контакты</a>
+                        </li>
+                    </ul>
+                    <ul class="header-contacts">
+                        <li class="contacts-item">
+                            <a href="mailto:info@devstudio.com">
+                                <svg class="icon-convert">
+                                    <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                                </svg>
+                                <span class="header-contacts-info">info@devstudio.com</span>
+                            </a>
+                        </li>
+                        <li class="contacts-item">
+        
+                            <a href="tel:+380961111111">
+                                <svg class="icon-smartphone">
+                                    <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                                </svg>
+                                <span class="header-contacts-info">+38 096 111 11 11</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="main-container">
+        <section class="main-section">
+        <div class="container">
+        <ul class="filter-buttons">
+            <li>
+                <button>Все</button>
+            </li>
+            <li>
+                <button>Веб-сайты</button>
+            </li>
+            <li>
+                <button>Приложения</button>
+            </li>
+            <li>
+                <button>Дизайн</button>
+            </li>
+            <li>
+                <button>Маркетинг</button>
+            </li>
+        </ul>
+         <!--<h1>Портфолио ВебСтудио</h1>-->  
+        <ul class="portfolio">
+            <li>
+                <a rel="nofollow" href="">
+                  <div class="ul-items">
+                      <div class="tc-thumb">
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="./images/mobile-port1.jpg 1x,
+                                                                        ./images/mobile-port1-2x.jpg 2x" />
+                        <source media="(max-width: 1199px)" srcset="./images/tablet-port1.jpg 1x,
+                                                                        ./images/tablet-port1-2x.jpg 2x" />
+                        <source media="(min-width: 1200px)" srcset="./images/desk-port1.jpg 1x,
+                                                                      ./images/desk-port1-2x.jpg 2x" />
+                        <img src="./images/mobile-port1-2x.jpg" alt="Технокряк">
+                    </picture>
+                    <div class="product-overlay">
+                        <p>Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
+                            шпионажа и атак на защищённые сервера конкурентов.</p>
+                    </div>
+                    </div>
+                     <div class="port-description">
+                     <b>Технокряк</b>
+                     <span>Веб-сайт</span>
+                    </div>
+                  </div>
+                </a>
+            </li>
+            <li>
+                <a rel="nofollow" href="">
+                    <div class="ul-items">
+                        <div class="tc-thumb">
+                        <picture>
+                            <source media="(max-width: 767px)" srcset="./images/mobile-port2.jpg 1x,
+                                                           ./images/mobile-port2-2x.jpg 2x" />
+                            <source media="(max-width: 1199px)" srcset="./images/tablet-port2.jpg 1x,
+                                                            ./images/tablet-port2-2x.jpg 2x" />
+                            <source media="(min-width: 1200px)" srcset="./images/desk-port2.jpg 1x,
+                                                    ./images/desk-port2-2x.jpg 2x" />
+                            <img src="./images/mobile-port2-2x.jpg" alt="Постер New Orlean vs Golden Star">
+                        </picture>
+                        <div class="product-overlay"></div>
+                        </div>
+                        <div class="port-description">
+                        <b>Постер New Orlean vs Golden Star</b>
+                        <span>Дизайн</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a rel="nofollow" href="">
+                    <div class="ul-items">
+                        <div class="tc-thumb">
+                        <picture>
+                            <source media="(max-width: 767px)"
+                                srcset="./images/mobile-port3.jpg 1x,
+                               ./images/mobile-port3-2x.jpg 2x" />
+                            <source media="(max-width: 1199px)"
+                                srcset="./images/tablet-port3.jpg 1x,
+                               ./images/tablet-port3-2x.jpg 2x" />
+                            <source media="(min-width: 1200px)"
+                                srcset="./images/desk-port3.jpg 1x,
+                                 ./images/desk-port3-2x.jpg 2x" />
+                            <img src="./images/mobile-port3-2x.jpg" alt="Ресторан Seafood">
+                        </picture>
+                        <div class="product-overlay"></div>
+                        </div>
+                        <div class="port-description">
+                        <b>Ресторан Seafood</b>
+                        <span>Приложение</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a rel="nofollow" href="">
+                    <div class="ul-items">
+                        <div class="tc-thumb">
+                        <picture>
+                            <source media="(max-width: 767px)"
+                                srcset="./images/mobile-port4.jpg 1x
+                                                                     ./images/mobile-port4-2x.jpg 2x" />
+                            <source media="(max-width: 1199px)"
+                                srcset="./images/tablet-port4.jpg 1x,
+                                ./images/tablet-port4-2x.jpg 2x" />
+                            <source media="(min-width: 1200px)"
+                                srcset="./images/desk-port4.jpg 1x,
+                                        ./images/desk-port4-2x.jpg 2x" />
+                            <img src="./images/mobile-port4-2x.jpg" alt="Проект Prime">
+                        </picture>
+                        <div class="product-overlay"></div>
+                        </div>
+                        <div class="port-description">
+                        <b>Проект Prime</b>
+                        <span>Маркетинг</span>
+                    </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a rel="nofollow" href="">
+                    <div class="ul-items">
+                        <div class="tc-thumb">
+                        <picture>
+                            <source media="(max-width: 767px)"
+                                srcset="./images/mobile-port5.jpg 1x,
+                              ./images/mobile-port5-2x.jpg 2x" />
+                            <source media="(max-width: 1199px)"
+                                srcset="./images/tablet-port5.jpg 1x,
+                                   ./images/tablet-port5-2x.jpg 2x" />
+                            <source media="(min-width: 1200px)"
+                                srcset="./images/desk-port5.jpg 1x,
+                               ./images/desk-port5-2x.jpg 2x" />
+                            <img src="./images/mobile-port5-2x.jpg" alt="Проект Boxes">
+                        </picture>
+                        <div class="product-overlay"></div>
+                        </div>
+                        <div class="port-description">
+                        <b>Проект Boxes</b>
+                        <span>Приложение</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a rel="nofollow" href="">
+                    <div class="ul-items">
+                        <div class="tc-thumb">
+                        <picture>
+                            <source media="(max-width: 767px)"
+                                srcset="./images/mobile-port6.jpg 1x,
+                            ./images/mobile-port6-2x.jpg 2x" />
+                            <source media="(max-width: 1199px)"
+                                srcset="./images/tablet-port6.jpg 1x,
+                                  ./images/tablet-port6-2x.jpg 2x" />
+                            <source media="(min-width: 1200px)"
+                                srcset="./images/desk-port6.jpg 1x,
+                                      ./images/desk-port6-2x.jpg 2x" />
+                            <img src="./images/mobile-port6-2x.jpg" alt="Inspiration has no Borders">
+                        </picture>
+                        <div class="product-overlay"></div>
+                        </div>
+                        <div class="port-description">
+                        <b>Inspiration has no Borders</b>
+                        <span>Веб-сайт</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a rel="nofollow" href="">
+                    <div class="ul-items">
+                        <div class="tc-thumb">
+                        <picture>
+                            <source media="(max-width: 767px)"
+                                srcset="./images/mobile-port7.jpg 1x,
+                                    ./images/mobile-port7-2x.jpg 2x" />
+                            <source media="(max-width: 1199px)"
+                                srcset="./images/tablet-port7.jpg 1x,
+                                    ./images/tablet-port7-2x.jpg 2x" />
+                            <source media="(min-width: 1200px)"
+                                srcset="./images/desk-port7.jpg 1x,
+                                        ./images/desk-port7-2x.jpg 2x" />
+                            <img src="./images/mobile-port7-2x.jpg" alt="Limited Edition">
+                        </picture>
+                        <div class="product-overlay"></div>
+                        </div>
+                        <div class="port-description">
+                        <b>Издание Limited Edition</b>
+                        <span>Дизайн</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a rel="nofollow" href="">
+                    <div class="ul-items">
+                        <div class="tc-thumb">
+                        <picture>
+                            <source media="(max-width: 767px)"
+                                srcset="./images/mobile-port8.jpg 1x,
+                                      ./images/mobile-port8-2x.jpg 2x" />
+                            <source media="(max-width: 1199px)"
+                                srcset="./images/tablet-port8.jpg 1x,
+                                   ./images/tablet-port8-2x.jpg 2x" />
+                            <source media="(min-width: 1200px)"
+                                srcset="./images/desk-port8.jpg 1x,
+                                      ./images/desk-port8-2x.jpg 2x" />
+                            <img src="./images/mobile-port8-2x.jpg" alt="LAB">
+                        </picture>
+                        <div class="product-overlay"></div>
+                        </div>
+                        <div class="port-description">
+                        <b>Проект LAB</b>
+                        <span>Маркетинг</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a rel="nofollow" href="">
+                    <div class="ul-items">
+                        <div class="tc-thumb">
+                        <picture>
+                            <source media="(max-width: 767px)"
+                                srcset="./images/mobile-port9.jpg 1x,
+                                      ./images/mobile-port9-2x.jpg 2x" />
+                            <source media="(max-width: 1199px)"
+                                srcset="./images/tablet-port9.jpg 1x,
+                                       ./images/tablet-port9-2x.jpg 2x" />
+                            <source media="(min-width: 1200px)"
+                                srcset="./images/desk-port9.jpg 1x,
+                                       ./images/desk-port9-2x.jpg 2x" />
+                            <img src="./images/mobile-port9-2x.jpg" alt="Growing Business">
+                        </picture>
+                        <div class="product-overlay"></div>
+                        </div>
+                        <div class="port-description">
+                        <b>Growing Business</b>
+                        <span>Приложение</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        </div>
+        </section>
+    </main>
+<footer class="footer-section">
+    <div class="container">
+        <div class="adress-social">
+            <div class="address-block">
+                <img src="./images/WebStudio.png" alt="logo WebStudio">
+                <address>
+                    <ul>
+                        <li class="adress">г. Киев, пр-т Леси Украинки, 26</li>
+                        <li class="contacts">info@example.com</li>
+                        <li class="contacts">+38 099 111 11 11</li>
+                    </ul>
+                </address>
+            </div>
+            <div class="social-links">
+                <span>присоединяйтесь</span>
+                <ul class="social-links-list">
+                    <li>
+                        <a href="">
+                            <svg class="icon-instagram-2" width="20">
+                                <use href="./images/symbol-defs.svg#icon-instagram-2"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg class="icon-twitter-1" width="20">
+                                <use href="./images/symbol-defs.svg#icon-twitter-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg class="icon-facebook-1" width="20">
+                                <use href="./images/symbol-defs.svg#icon-facebook-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg class="icon-linkedin-1" width="20">
+                                <use href="./images/symbol-defs.svg#icon-linkedin-11"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="subscription">
+            <span class="subs-call">Подпишитесь на рассылку</span>
+            <form class="subs-form">
+                <label for="email"></label>
+                <input type="text" name="email" id="email-footer" placeholder="E-mail" class="subs-input">
+                </label>
+                <button type="submit" class="subs-button">
+                    <span>Подписаться</span>
+                    <svg class="icon-send" width="24">
+                        <use href="./images/symbol-defs.svg#icon-send"></use>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

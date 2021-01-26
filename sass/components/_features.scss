@@ -1,0 +1,25 @@
+.features-section {
+  background-color: $primary-background-color;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 14px;
+  text-align: left;
+  @media screen and (min-width: 1200 px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+.features-section h3 {
+  color: $primary-text-color;
+  font-weight: 700;
+  line-height: 1.17;
+  margin-bottom: 10px;
+  margin-top: 0;
+  width: 100%;
+}
+.features-section p {
+  color: $additional-text-color;
+  font-weight: 400;
+  line-height: 1.714;
+  margin-bottom: 0;
+}

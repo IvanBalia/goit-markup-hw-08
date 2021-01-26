@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+button body {
+  border: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--primary-background-color);
+  margin: 0;
+}
+html {
+  margin: 0;
+  font-family: $primary-font-family;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin: 0;
+  padding: 0;
+}
+div.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.product-section h2,
+.team-section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  color: var(--primary-text-color);
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}

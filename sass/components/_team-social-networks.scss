@@ -1,0 +1,33 @@
+.team-social-networks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 0px;
+  padding: 0;
+}
+.team-social-networks li {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  &:not(:first-child) {
+    margin-left: 10px;
+  }
+  &:hover,
+  &:focus {
+    background-color: $hover-color;
+  }
+  &:hover {
+    svg {
+      fill: $primary-background-color;
+    }
+  }
+}
+.team-social-networks a {
+  display: flex;
+  width: inherit;
+  height: inherit;
+  justify-content: center;
+  align-items: center;
+}

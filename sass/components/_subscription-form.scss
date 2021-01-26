@@ -1,0 +1,80 @@
+.subscription {
+  padding-top: 12px;
+  padding-bottom: 40px;
+  margin-top: 60px;
+  @media screen and (min-width: 1200px) {
+    margin-top: 0;
+  }
+}
+.subs-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+    padding: 0;
+  }
+}
+.subs-input {
+  width: 450px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding-left: 12px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: $footer-background-color;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+    margin-right: 12px;
+    margin-bottom: 0;
+  }
+}
+.subs-button {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  border: #2196f3 0px solid;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  align-items: center;
+  justify-content: space-around;
+  @media screen and (min-width: 1200px) {
+    margin-top: 0px;
+  }
+}
+.to-subscribe {
+  padding: auto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  color: $invert-text-color;
+}
+
+.icon-send {
+  height: 24px;
+  fill: $invert-text-color;
+}
+.subs-call {
+  display: block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $invert-text-color;
+  margin-bottom: 22px;
+}

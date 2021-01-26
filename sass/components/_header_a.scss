@@ -1,0 +1,15 @@
+header a {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  &:focus {
+    color: $hover-color;
+  }
+  &:hover {
+    color: $hover-color;
+  }
+}

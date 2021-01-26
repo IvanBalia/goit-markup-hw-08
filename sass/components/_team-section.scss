@@ -1,0 +1,41 @@
+.team-section {
+  background-color: $team-background-color;
+
+  color: $primary-text-color;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.17;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+.team-section h2 {
+  color: $primary-text-color;
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.17;
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+  }
+}
+
+.team {
+  display: block;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: 0;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+}
